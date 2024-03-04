@@ -6,13 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="icon" type="image/svg+xml" href="images/ikona.svg">
-    <style>
-        table,
-        th,
-        td {
-            border: 1px solid black;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -28,42 +22,47 @@
         </nav>
     </header>
     <main>
-        <article>
-            <header>
-                <h2>Who is Art Rexhepi</h2>
-            </header>
+        <article class="hover">
+            <h2>Who is Art Rexhepi</h2>
             <figure>
-                <img src="images/myphoto.jpg" alt="Fotoja ime" style="width:250px;height:250px;">
-                <figcaption>Art Rexhepi, lindur më 29 prill 2003, jetoj dhe veproj në qytetin e Gjilanit.</figcaption>
+                <img src="images/myphoto.jpg" alt="Fotoja ime" class="alignCenter b-radius "
+                    style="width:250px;height:250px;">
             </figure>
+            <figcaption class="tex">Art Rexhepi, lindur më 29 prill 2003, jetoj dhe veproj në qytetin e Gjilanit.
+            </figcaption>
         </article>
+        <br>
         <article>
-            <header>
-                <section>
-                    <h2>Education</h2>
-            </header> 
-            <ul>
-                <li>Primary school</li>
-                <ul>
-                    <li><b>Rexhep Elmazi</b></li>
-                </ul>
-                </li>
-                <li>High School</li>
-                <ul>
-                    <li><b>Adem Kastrati</b></li>
-                </ul>
-                </li>
-                <li>University</li>
-                <ul>
-                    <li><b>Kadri Zeka</b></li>
-                </ul>
-                </li>
-            </ul>
+            <section class="FlexContainer">
+                <h2>Education</h2>
+
+                <div>
+                    <ul>
+                        <li>Primary school</li>
+                        <ul>
+                            <li><b>Rexhep Elmazi</b></li>
+                        </ul>
+                </div>
+
+                <div>
+                    <ul>
+                        <li>High School</li>
+                        <ul>
+                            <li><b>Adem Kastrati</b></li>
+                        </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>University</li>
+                        <ul>
+                            <li><b>Kadri Zeka</b></li>
+                        </ul>
+                </div>
+            </section>
         </article>
+        <br>
         <article>
-            <header>
-                <h2 id="myskills">My Skills</h2>
-            </header>
+            <h2>My Skills</h2>
             <table style="width:100%">
                 <tr>
                     <th><b>#</b></th>
@@ -85,19 +84,19 @@
                 </tr>
             </table>
         </article>
+        <br>
         <article>
-            <header>
-                <h2 id="activities">My Projects</h2>
-            </header>
+            <h2>My Projects</h2>
             <ol type="1">
-                <li>Coffee <a href="https://www.google.com" target="_blank">→Read More</a></li>
-                <li>Tea <a href="https://www.google.com" target="_blank">→Read More</a></li>
-                <li>Milk <a href="https://www.google.com" target="_blank">→Read More</a></li>
+                <li>Telegrafi <a href="https://telegrafi.com/" target="_blank">➡️</a></li>
+                <li>LiveScore <a href="https://www.livescore.com/en/" target="_blank">➡️</a></li>
+                <li>Twitch <a href="https://www.twitch.tv/" target="_blank">➡️</a></li>
             </ol>
         </article>
     </main>
+    <br>
     <footer>
-        <p>Copyright © ART REXHEPI</p>
+        <p>All rights reserved <b> Art Rexhepi </b>©</p>
     </footer>
 </body>
 

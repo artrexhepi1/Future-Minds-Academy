@@ -1,0 +1,45 @@
+nav a {
+    margin-bottom: 20px;
+    display: block;
+    padding: 40px;
+    border:  1px solid red;
+}
+
+nav a {
+    
+}
+
+
+
+
+
+
+nav a {
+    margin-bottom: 20px;
+    display: block;
+}
+
+
+nav {
+    width: 400px;
+    height: 100vh;
+    margin-top: 100px;
+    background-color: aqua;
+}
+.myProduct {
+    padding: 40px;
+    border: 1px solid red;
+}
+
+.myFolio {
+ 
+    padding: 40px;
+    border: 1px solid red;
+
+}
+
+.myReach {
+   
+    padding: 40px;
+    border: 1px solid red;
+}

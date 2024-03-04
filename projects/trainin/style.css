@@ -1,0 +1,15 @@
+article {
+    background-color: #d46060;
+    padding: 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+article:hover {
+    background-color: #12df23;
+}
+
+h2 {
+    color: #333;
+}
+

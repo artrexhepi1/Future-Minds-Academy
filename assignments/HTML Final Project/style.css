@@ -1,0 +1,189 @@
+* { cursor: url('images/albi.png'), auto;
+
+}
+body {
+  background-image: url("images/pikapika.jpg");
+  background-size: cover;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+article {
+  background-color: #005d74;
+  padding: 10px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  max-width: 800px;
+  margin: 0 auto;
+
+}
+
+article:hover {
+  background-color: #ddd;
+}
+
+.project-section {
+  background-color: #005d74;
+  padding: 10px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.project-section:hover {
+  background-color: #ddd;
+}
+
+.project-section2 {
+  background-color: #005d74;
+  padding: 10px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  max-width: 800px;
+  margin: 0 auto;
+
+}
+
+.project-section2:hover {
+  background-color: #ddd;
+}
+
+.project-section3 {
+  background-color: #005d74;
+  padding: 10px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  max-width: 800px;
+  margin: 0 auto;
+
+}
+
+.project-section3:hover {
+  background-color: #ddd;
+}
+
+/* Shto këtë rresht nëse dëshiron që imazhi të ketë gjithashtu border radius */
+.alignCenter {
+  border-radius: 10px;
+/* Përshtat me vlerën që dëshiron */
+}
+
+hr {
+  border-color: black;
+}
+
+header {
+
+  text-align: center;
+
+}
+
+.FlexContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  width: auto;
+  background-color: #2b6ec5;
+  height: auto;
+  overflow: auto;
+  flex-direction: column;
+
+}
+
+.FlexContainer div {
+  width: 750px;
+  height: 100px;
+  margin: 5px;
+  background-color: lightblue;
+}
+
+.FlexContainer h2 {
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  /* Vendos tekst në qendër për të qenë të përqendruar horizontalisht */
+}
+
+/* Stilizimi për link-un */
+nav ul li {
+  display: inline-block;
+  /* Vendos elementët horizontalisht */
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #002c6d;
+  /* Ngjyra e sfondit */
+  border-radius: 5px;
+  /* Forma e butonit */
+  transition: background-color 0.3s ease;
+  /* Animacioni i ndryshimit të ngjyrës kur shfaqet */
+}
+
+/* Stilizimi për hover (kur mouse është mbi link-un) */
+nav ul li a:hover {
+  background-color: #0056b3;
+  /* Ngjyra e re e sfondit kur hover */
+}
+
+ul {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+h2 {
+  text-align: center;
+
+}
+
+.alignCenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.b-radius {
+  border-radius: 20%;
+}
+
+.tex {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.contact-article {
+  text-align: center;
+
+}
+
+footer {
+  background-color: #8be974;
+  padding: 10px;
+  border-radius: 0px;
+  transition: background-color 0.3s ease;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer:hover {
+  background-color: #dddddd;
+}
