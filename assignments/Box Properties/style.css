@@ -1,0 +1,20 @@
+.container {
+    width: 600px;
+    margin: 20px auto;
+}
+
+.box-image {
+    float: left;
+    padding: 10px;
+    border: 2px solid #ccc;
+    margin-right: 20px;
+    width: 300px;
+    cursor: pointer;
+}
+
+.box-image:hover {
+    padding: 15px;
+    border: 3px solid #999;
+    margin-right: 15px;
+    width: 310px;
+}
