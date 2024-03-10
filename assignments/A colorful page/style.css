@@ -1,0 +1,21 @@
+body {
+    background-image: url("images/wall.jpg");
+    background-size: cover;
+}
+
+h1 {
+    background-color: blue;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(5, 70, 248);
+}
+
+article {
+    background-color: blue;
+}
+
+section {
+    background-color: blue;
+}
