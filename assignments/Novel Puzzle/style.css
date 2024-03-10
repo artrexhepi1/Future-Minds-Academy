@@ -1,0 +1,14 @@
+.text-container {
+    display: flex; 
+    align-items: flex-start; 
+}
+
+.big-letter {
+    font-size: 3em;
+    font-weight: bold; 
+    align-self: flex-start; 
+}
+
+.normal-text {
+    font-size: 1em; 
+}
