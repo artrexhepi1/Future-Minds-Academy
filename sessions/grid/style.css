@@ -1,0 +1,25 @@
+* { padding: 0px;
+margin: 0px;
+}
+
+
+header { background-color: red;
+}
+
+.grid-container {
+    background-color: grey;
+    
+}
+aside { 
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: rgb(192, 55, 55);
+}
+
+footer {
+    background-color: yellow;
+}
+
